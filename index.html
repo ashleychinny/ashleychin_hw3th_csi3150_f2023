@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../dist/output.css" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet" />
     <title>New York</title>
     <link rel="shortcut icon" href="../images/53168.png" type="image/x-icon" />
   </head>
@@ -19,42 +19,143 @@
 
       <div class="absolute inset-0 flex justify-center items-center flex-col">
         <img src="../images/53168.png" class="w-20 mb-5" />
-        <h1 class="text-neutral-50 text-8xl font-serif mb-10">New York</h1>
+        <h1 class="text-neutral-50 text-8xl font-serif mb-10">The Big Apple</h1>
         <p class="text-3xl font-serif">Tour and travel</p>
-        <a href="#info">
-          <img
-            class="w-20 hover:translate-y-4 transition-all"
-            src="../images/down.svg"
-            alt="down arrow"
-        /></a>
+        <a href="#info"><img class="w-20 hover:translate-y-4 transition-all" src="./images/down.svg" alt="down arrow" /></a>
+          
       </div>
     </section>
 
-    <section class="h-screen w-screen relative">
-      <img
-        src="../images/benjamin-gremler-qONhYBVNz1c-unsplash.jpg"
-        alt="new york pic"
-        class="absolute inset-0 -z-10"
-      />
+    <section class="h-screen w-screen relative" id="info">
+      <img src="../images/benjamin-gremler-qONhYBVNz1c-unsplash.jpg" alt="new york pic"
+          class="absolute inset-0 -z-10" />
       <div class="absolute inset-0 bg-black opacity-70"></div>
+      <div class="absolute inset-0 flex justify-center items-center gap-10 mx-20">
+          <h2 class="text-7xl font-serif text-neutral-300 font-extrabold drop-shadow-lg w-2/5 mx-10">Ready to
+              explore New York?</h2>
+          <p class="text-2xl text-neutral-50 font-serif text-left">New York City, the epitome of urban vitality, is a
+              mesmerizing metropolis that pulses with energy around the clock. From the towering skyscrapers that pierce
+              the skyline to the historic neighborhoods brimming with character, NYC is a place where diversity thrives,
+              cultures collide, and dreams are woven into its very fabric. The city offers an unparalleled array of
+              experiences, from world-class art at the Metropolitan Museum of Art to the culinary delights of diverse
+              street food vendors. Central Park's tranquil oases provide respite from the city's hustle and bustle, and
+              the city's iconic landmarks like Times Square and the Statue of Liberty captivate millions of visitors
+              year-round. In New York City, every corner tells a unique story, making it a destination that leaves a
+              lasting imprint on anyone fortunate enough to explore its vibrant streets.
+              <div class="text-center mt-4"></div>
+              <a href="https://www.iloveny.com/" 
+              class="bg-pink-300 hover:bg-pink-400 transition-all rounded-md p-2 text-2xl w-40 flex justify-center items-center" style="position: absolute; bottom: 100px; left: 50%; transform: translateX(-50%);">
+              Read More
+            </a>
+          </p>
+      </div>
     </section>
 
-    <section class="h-screen w-screen relative">
+    <section class="min-h-screen w-screen relative">
       <img
-        src="../images/mike-c-valdivia-kZokA2VTKn4-unsplash.jpg"
-        alt="new york pic"
+        src="./images/mike-c-valdivia-kZokA2VTKn4-unsplash.jpg"
+        alt="New York pic"
         class="absolute inset-0 -z-10"
       />
       <div class="absolute inset-0 bg-black opacity-70"></div>
+    
+      <div class="flex flex-col items-center justify-start p-8 relative"> <!-- Added "relative" class here -->
+        <h1 class="text-7xl font-serif text-neutral-50 mt-4 text-center" style="position: relative; z-index: 1;"> <!-- Added inline "position" and "z-index" styles -->
+          The Big Apple: Travels
+        </h1>
+        <div class="flex items-center justify-center mt-8 space-x-4">
+          <!-- Image 1 - City Life -->
+          <div class="max-w-sm w-1/3 relative">
+            <div class="relative">
+              <img
+                src="./images/triston-dunn-rfj_wOYQkus-unsplash.jpg"
+                class="border border-white cursor-pointer"
+                alt="City Life"
+                width="300" 
+              />
+            </div>
+          </div>
+    
+          <!-- Image 2 - Street Food -->
+          <div class="max-w-sm w-1/3 relative">
+            <div class="relative">
+              <img
+                src="./images/preet-patel-LbKdRBAeaAY-unsplash.jpg"
+                class="border border-white cursor-pointer"
+                alt="Street Food"
+                width="300" 
+              />
+            </div>
+          </div>
+    
+          <!-- Image 3 - Views -->
+          <div class="max-w-sm w-1/3 relative">
+            <div class="relative">
+              <img
+                src="./images/trevor-hayes-IA8FR0RyJDE-unsplash.jpg"
+                class="border border-white cursor-pointer"
+                alt="Views"
+                width="300" 
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
-    <section class="h-screen w-screen relative">
+    
+    <section class="h-screen w-screen relative overflow-hidden">
       <img
-        src="../images/miltiadis-fragkidis-zBShCDpyMEg-unsplash.jpg"
-        alt="new york pic"
-        class="absolute inset-0 -z-10"
+        src="./images/ferdinand-stohr-nKg8IsVFMV8-unsplash.jpg"
+        alt="NYC"
+        class="absolute inset-0 -z-10 h-fit"
       />
       <div class="absolute inset-0 bg-black opacity-70"></div>
+      <div
+        class="absolute inset-0 flex justify-center items-center gap-14 mx-20"
+      >
+        <h2 class="text-7xl font-serif font-extrabold drop-shadow-lg w-2/5">
+          Touring, Tasting, and Taking in NYC: An Adventure Awaits
+        </h2>
+        <div class="flex flex-col justify-center gap-10 w-3/5">
+          <div>
+            <h4 class="text-3xl font-semibold font-serif">Touring</h4>
+            <p class="text-xl font-serif">
+              Experience the rich history and diverse culture of New York City
+              by touring its iconic landmarks, neighborhoods, and museums. Take
+              a stroll through Central Park, explore the historic Ellis Island,
+              or visit the renowned Museum of Modern Art. With a myriad of
+              guided tours available, from walking to double-decker bus tours,
+              you'll have the chance to delve into the city's captivating past
+              and present.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-3xl font-semibold font-serif">Tasting</h4>
+            <p class="text-xl font-serif">
+              NYC is a food lover's paradise, offering a delectable array of
+              cuisines from around the world. Savor the city's culinary
+              diversity by indulging in a slice of authentic New York-style
+              pizza, sipping on artisanal coffee in a cozy Brooklyn cafe, or
+              experiencing the mouthwatering delights of street food vendors.
+              Don't forget to explore the vibrant food markets, like Chelsea
+              Market or Smorgasburg, to sample gourmet treats from local
+              vendors.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-3xl font-semibold font-serif">Taking in</h4>
+            <p class="text-xl font-serif">
+              One of the most mesmerizing aspects of NYC is its breathtaking
+              skyline and scenic vistas. Take in the panoramic views from atop
+              the Empire State Building, One World Observatory, or Brooklyn
+              Bridge Park. You can also enjoy a relaxing walk along the High
+              Line, an elevated park with lush greenery and art installations,
+              or simply stroll along the city's bustling streets, absorbing the
+              energy and diversity of this remarkable metropolis.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="h-screen w-screen relative">
