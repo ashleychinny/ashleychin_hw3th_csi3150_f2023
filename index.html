@@ -190,14 +190,22 @@
         </div>
       </div>
     </section>
-    
-    <section class="h-screen w-screen relative">
-      <img
-        src="./images/benjamin-gremler-qONhYBVNz1c-unsplash.jpg"
-        alt="new york pic"
-        class="absolute inset-0 -z-10"
-      />
-      <div class="absolute inset-0 bg-black opacity-70"></div>
+
+    <section class="section-container">
+    <div class="content">
+    <div class="circular-image">
+      <img src="./images/morgane-le-breton-_Dxo54uYMfo-unsplash.jpg" alt="Circular Image">
+    </div>
+        <div class="text">
+        <p class="text-neutral-50 font-serif text-2xl text-semibold">"Cities have distinct personalities, and New York's is unmistakable. 
+        The pulsating energy of the streets, the towering skyscrapers, and the incredible mix of cultures make it a city unlike any other. 
+        In New York, dreams are woven into the very fabric of the city, and every street corner tells a unique story. 
+        It's a place where art, culture, and ambition collide to create an atmosphere that is both exhilarating and inspiring. 
+        New York, to me, is the ultimate manifestation of the American spirit - a city where anything is possible."
+        <br>
+        <span style="color: rgb(247, 243, 244); font-size: 30px;">-Oprah Winfrey</span></p></p>
+        </div>
+    </div>
     </section>
 
     <section class="carousel">
@@ -219,18 +227,38 @@
       <img class="arrow right-arrow" src="./images/right-arrow.png" alt="Right Arrow" onclick="nextImages()" id="right-arrow">
     </section>
     
-    
-    
-    
-
     <section class="h-screen w-screen relative overflow-hidden">
       <img
-        src="../images/laurenz-heymann-gggdBSE_trE-unsplash.jpg"
+        src="./images/benjamin-gremler-qONhYBVNz1c-unsplash.jpg"
         alt="new york pic"
         class="absolute inset-0 -z-10"
       />
       <div class="absolute inset-0 bg-black opacity-70"></div>
+      <div class="absolute inset-0 flex justify-center items-center">
+				<div class="w-1/3 flex flex-col">
+					<h3 class="text-neutral-50 font-extrabold font-serif text-7xl">Contact Us</h3>
+          <br>
+					<p class="text-2xl mt-8">Toll free: 800 CALL NYS</p>
+					<p class="text-2xl mt-1">New York: 800 CALL NYS</p>
+					<p class="text-2xl mt-1">Fax: 800 CALL NYS</p>
+					<p class="text-2xl mt-1">Email: info@iloveny.com</p>
+          <br>
+					<div class="flex gap-2 mt-10">
+						<a href="https://www.instagram.com/iloveny/"><img src="./images/instagram.svg" alt="Instagram" class="w-12" /></a>
+						<a href="https://www.facebook.com/iloveny"><img src="./images/meta.svg" alt="Meta" class="w-12" /></a>
+						<a href="https://twitter.com/I_LOVE_NY"><img src="./images/twitter.svg" alt="Twitter" class="w-12" /></a>
+						<a href="https://www.pinterest.com/iloveny/"><img src="./images/pintrest.svg" alt="Pinterest" class="w-12" /></a>
+					</div>
+				</div>
+				<div class="w-1/3 flex flex-col gap-10">
+					<input type="text" placeholder="Name" class="bg-opacity-10 bg-black p-3 rounded-md ring-2 ring-white ring-opacity-40" />
+					<input type="text" placeholder="Email" class="bg-opacity-10 bg-black p-3 rounded-md ring-2 ring-white ring-opacity-40" />
+					<textarea type="text" placeholder="Message" class="h-50 bg-opacity-10 bg-black p-3 rounded-md ring-2 ring-white ring-opacity-40"></textarea>
+				</div>
+			</div>
+
     </section>
+    
     <script>
       const imageGroups = [
   document.getElementById('group1'),

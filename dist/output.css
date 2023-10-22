@@ -863,3 +863,84 @@ video {
   height: auto;
   border: 2px solid rgb(250, 249, 249);
 }
+
+/* Section Container */
+.section-container {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Section Container */
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/laurenz-heymann-gggdBSE_trE-unsplash.jpg") center/cover
+      no-repeat;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Circular Image */
+.circular-image {
+  background: #fff; /* Adjust the background color as needed */
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Circular Image (The Image Inside the Container) */
+.circular-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Text */
+.text {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+/* Additional CSS for the section */
+.section-container h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Rounded and Translucent Placeholder */
+input::placeholder {
+  border-radius: 50px; /* Adjust the border radius as needed for rounding */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the opacity (the last value) as needed */
+  color: white; /* Text color for the placeholder */
+  padding: 5px 10px; /* Padding to adjust the spacing inside the placeholder */
+  transition: background-color 0.3s; /* Add a transition for smoother effects */
+}
+
+/* This is used when the input is focused or has content */
+input:focus::placeholder,
+input:not(:placeholder-shown)::placeholder {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /* Adjust the opacity when focused or has content */
+}
