@@ -858,10 +858,12 @@ video {
 #image-5,
 #image-6,
 #image-7,
-#image-8 {
+#image-8,
+#image-9,
+#image-10,
+#image-11 {
   width: 25%;
   height: auto;
-  border: 2px solid rgb(250, 249, 249);
 }
 
 /* Section Container */
