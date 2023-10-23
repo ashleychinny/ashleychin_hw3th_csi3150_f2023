@@ -919,28 +919,3 @@ video {
   font-size: 24px;
   margin: 0;
 }
-
-/* Rounded and Translucent Placeholder */
-input::placeholder {
-  border-radius: 50px; /* Adjust the border radius as needed for rounding */
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Adjust the opacity (the last value) as needed */
-  color: white; /* Text color for the placeholder */
-  padding: 5px 10px; /* Padding to adjust the spacing inside the placeholder */
-  transition: background-color 0.3s; /* Add a transition for smoother effects */
-}
-
-/* This is used when the input is focused or has content */
-input:focus::placeholder,
-input:not(:placeholder-shown)::placeholder {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.2
-  ); /* Adjust the opacity when focused or has content */
-}
